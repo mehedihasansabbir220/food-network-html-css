@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0 , 0, 0, 0.5);
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+nav ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+  
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 15px white;
+
+}
+.flex-abile{
+    display: flex;
+    margin: 0px;
+    height: 600px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5px;
+}
+.half-width img{
+    width: 60%;
+}
+.headings{
+    font-size: 3.1rem;
+    color: black;
+    text-align: center;
+}
+.green{
+    color: green;
+}
+.btn{
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 35px ;
+    background-color: transparent;
+    border: 1 solid white;
+    outline: none;
+    background-image: linear-gradient(red, yellow
+    );
+}
+button a {
+    text-decoration: none;
+}
+.btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 8px green, 0 0 10px green,0 0 12px green;
+}
+#about{
+    background: url(images/shapes/Frame\ 59.jpg) no-repeat center center/cover;
+
+}
+#recipies{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    background: rgba(0 , 0, 0, 0.5);
+}
+.pra{
+    margin: 40px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background: green;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+h2{
+    text-align: center;
+    height: 50px;
+}
+#fllower{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 25px;
+    background: rgb(121, 119, 119) solid;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0 , 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin:20px 0px;
+}
+.input{
+    margin: 12px;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    outline: none;
+
+}
+#mag{
+    margin: 15px;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#send{
+    padding: 10px;
+    margin: 40px;
+    width: 10%;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px tomato;
+}
+footer{
+    background: linear-gradient(yellow,green );
+    color: white;
+    text-align: center;
+    height: 200px;
+}
